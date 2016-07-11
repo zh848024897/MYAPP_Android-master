@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:background="@color/maoyan_title__red">
+    <LinearLayout
+        android:id="@+id/ll_adr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        >
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="3dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:text="北京"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/tv_address"
+            android:layout_marginTop="2dp"
+            android:src="@mipmap/show_city" />
+
+    </LinearLayout>
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="影院"
+    android:textColor="@color/white"
+    android:layout_centerInParent="true"
+    android:textSize="18sp"
+    />
+
+    <ImageView
+        android:id="@+id/iv_sever"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/select"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50sp"
+        />
+
+    <ImageView
+        android:id="@+id/iv_search"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/search"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10sp"
+        />
+</RelativeLayout>

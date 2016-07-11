@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="245dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="近期最受期待"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:background="#cceeeeee" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:gravity="center_vertical"
+        android:layout_margin="10dp"
+        >
+
+        <maoyan.pjs.com.maoyan.view.HorizontalScrollRecyclerView
+            android:id="@+id/expct_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        </maoyan.pjs.com.maoyan.view.HorizontalScrollRecyclerView>
+
+    </RelativeLayout>
+</LinearLayout>

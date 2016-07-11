@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="130dp"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    <LinearLayout
+        android:id="@+id/ll_topic"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_topic"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/backgroud_logo02"
+            />
+        <TextView
+            android:id="@+id/tv_topic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="话题"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_information"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_information"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/backgroud_logo02"
+            />
+        <TextView
+            android:id="@+id/tv_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="资讯"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_movielib"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_movielib"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/backgroud_logo02"
+            />
+        <TextView
+            android:id="@+id/tv_movielib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="影库"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_boxoffice"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/iv_boxoffice"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/backgroud_logo02"
+            />
+        <TextView
+            android:id="@+id/tv_boxoffice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="票房"
+            android:textSize="16sp"
+            android:layout_marginTop="6dp"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="今天"
+        android:textSize="14sp"
+        android:paddingLeft="10dp"
+        android:background="@color/stan"
+        android:gravity="center_vertical"
+        />
+
+<!--<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="@color/divider"
+    android:layout_alignParentBottom="true"
+    ></View>-->
+</LinearLayout>
